@@ -8,15 +8,15 @@
     </head>
     <body>
     <div id="vanta-net"></div>
-        <nav class="block w-full max-w-screen-lg px-4 py-2 mx-auto glass-navbar rounded-md lg:px-8 lg:py-3 mt-10 h-[100px]" id="navbar">
-            <div class="container flex flex-wrap items-center justify-between mx-auto text-white h-full">
+        <nav class="block w-full max-w-screen-lg px-4 py-2 mx-auto glass-navbar rounded-md lg:px-8 lg:py-3  h-[100px]" id="navbar">
+            <div class=" flex flex-wrap items-center justify-between mx-auto text-white h-full">
                 <div class="hidden lg:block">
                     <ul class="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
                         <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-slate-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                            <a href="#about" class="flex items-center">About</a>
+                            <a href="#aboutme" class="flex items-center">About</a>
                         </li>
                         <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-slate-500">
@@ -24,21 +24,46 @@
                             </svg>
                             <a href="#projects" class="flex items-center">Projects</a>
                         </li>
-                        <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600 mr-[500px]">
+                        <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-slate-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 0 1-1.125-1.125v-3.75ZM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-8.25ZM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-2.25Z" />
                             </svg>
                             <a href="#contact" class="flex items-center">Contact</a>
                         </li>
-                        <li class="flex items-center p-1 text-sm text-slate-600">
-                            <a href="https://x.com/saiejex" class="flex items-center">
-                                <svg viewBox="0 0 128 128" width="18" height="18">
-                                    <path d="M75.916 54.2 122.542 0h-11.05L71.008 47.06 38.672 0H1.376l48.898 71.164L1.376 128h11.05L55.18 78.303 89.328 128h37.296L75.913 54.2ZM60.782 71.79l-4.955-7.086-39.42-56.386h16.972L65.19 53.824l4.954 7.086 41.353 59.15h-16.97L60.782 71.793Z" fill="black" style="stroke-width:.104373"></path>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="flex items-center p-1 text-sm text-slate-600">
-                            <a href="https://github.com/goyorr" class="flex items-center">
+                    </li>
+
+                    <div class="relative w-[660px]">
+                        <ul>
+                            <li class="items-center p-1 text-sm text-slate-600 absolute top-[-39px] right-0">
+                                <div class="flex items-center gap-3 hover:text-white transition-all duration-700">
+                                    <img width="25" height="25" src="https://img.icons8.com/ios/50/phone--v1.png" alt="phone--v1"/>
+                                    +212 682-448024
+                                    <button href="javascript:void(0);" class="hover:scale-125 transition-transform duration-300 relative left-[30px] ease-in-out flex items-center" onclick="copyToClipboard('+212 682-448024')">
+                                        <img width="35" height="35" src="https://img.icons8.com/sf-regular-filled/48/copy.png" alt="copy"/>
+                                    </button>
+                                </div>
+                                
+                                <div class="flex items-center gap-3 hover:text-white transition-all duration-700">
+                                    <img width="25" height="25" src="https://img.icons8.com/ios/50/new-post--v1.png" alt="new-post--v1"/>
+                                    zakariago9@gmail.com
+                                    <button href="javascript:void(0);" class="hover:scale-125 transition-transform duration-300 ease-in-out flex items-center" onclick="copyToClipboard('zakariago9@gmail.com')">
+                                        <img width="35" height="35" src="https://img.icons8.com/sf-regular-filled/48/copy.png" alt="copy"/>
+                                    </button>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- <li class="flex items-center p-1 text-sm text-slate-600">
+                        <a href="https://x.com/saiejex" class="flex items-center">
+                            <svg viewBox="0 0 128 128" width="18" height="18">
+                                <path d="M75.916 54.2 122.542 0h-11.05L71.008 47.06 38.672 0H1.376l48.898 71.164L1.376 128h11.05L55.18 78.303 89.328 128h37.296L75.913 54.2ZM60.782 71.79l-4.955-7.086-39.42-56.386h16.972L65.19 53.824l4.954 7.086 41.353 59.15h-16.97L60.782 71.793Z" fill="black" style="stroke-width:.104373"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="flex items-center p-1 text-sm text-slate-600">
+                        <a href="https://github.com/goyorr" class="flex items-center">
                                 <svg viewBox="0 0 128 128" width="24" height="24">
                                     <g fill="black"><path fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path><path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path></g>
                                 </svg>
@@ -50,19 +75,19 @@
                                     <path fill="#0076b2" d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3z"></path><path fill="#fff" d="M21.06 48.73h18.11V107H21.06zm9.06-29a10.5 10.5 0 11-10.5 10.49 10.5 10.5 0 0110.5-10.49M50.53 48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53z"></path>
                                 </svg>
                             </a>
-                        </li>
-                    </ul>
-                </div>
+                        </li> -->
+                    </div>
             </div>
         </nav>
 
 
+        <div id="notification" class="notification hidden1">
+            <p id="notification-text">Copied to clipboard!</p>
+        </div>
 
 
-
-      
-
-            <div class="grid grid-cols-1 gap-3 pt-7 pb-2 w-[100%]">
+        
+            <div id="aboutme"  class="grid grid-cols-1 gap-3 pt-7 pb-2 w-[100%]">
                 <div class="col-span-2 flex flex-col justify-end rounded-lg p-4 h-[100px] overflow-hidden relative group">
                     <div class="absolute left-1/2 -translate-x-1/2 w-60 h-16 bg-red-600 z-0 blur-[90px] opacity-0 group-hover:opacity-100 transition duration-700"></div>
                     <div class="flex-grow relative h-full flex justify-center items-center space-x-12 carousel-container">
@@ -173,14 +198,32 @@
                         </div>
                 </div>
                 </div>
-                </div>
+                </div> 
                 
 
 
 
 
   <!-- personal card -->
-  <div class="personal-card" data-state="#about">
+  <div class="aboutme-container text-white">
+    <div class="card-n">
+        <div class="align">
+            <span class="red"></span>
+            <span class="yellow"></span>
+            <span class="green"></span>
+        </div>
+    
+        <h1 class="font-bold text-lg" >Zakaria El Kachradi</h1>
+        <p class="pt-11 font-bold text-lg">
+        About Me
+    </p>
+        <p class="pt-4">
+
+            I'm a 23-year-old software developer and web developer with a passion for creating innovative solutions. I enjoy working on diverse projects and constantly learning new technologies. I’m focused on building efficient, user-friendly websites and applications.
+        </p>
+    </div>
+  </div>
+  <!-- <div class="personal-card" data-state="#about">
     <div class="card-header">
       <div class="card-cover" style="background-image: url('https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')"></div>
       <img class="card-avatar" src="https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" alt="avatar" />
@@ -270,10 +313,10 @@
         <button data-section="#contact">CONTACT</button>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
-                <div class="container">                  
+                <div id="projects" class="container">                  
                     <div class="gradient-cards">
                       <div class="card">
                         <div class="container-card bg-green-box">
@@ -388,59 +431,6 @@
                     </div>
                   </div>
 
-        <!-- <div class=" card2 text-white">g3</div> -->
-
-
-<!-- <div class="card">
-    <div class="card__border"></div>
-    <div class="card_title__container">
-        <strong class="card_title">Projects</strong>
-    </div>
-    <hr class="line" />
-  <ul class="card__list font-mono">
-      <button>
-    <li class="card__list_item border-none rounded-md small-card h-24">
-        
-        <strong class="list_text">ft_transcendance</strong>
-    </button>
-</li>
-<button>
-<li class="card__list_item  border-none rounded-md small-card h-24">
-    
-        <strong class="list_text">ft_irc</strong>
-    </button>
-</li>
-<button>
-<li class="card__list_item  border-none rounded-md small-card h-24">
-    
-        <strong class="list_text">Inception</strong>
-    </li>
-</button>
-<button>
-<li class="card__list_item  border-none rounded-md small-card h-24">
-    
-<strong class="list_text">???????</strong>
-</button>
-    </li>
-  </ul>
-  <a href="https://github.com/goyorr" class="btn">
-      <strong>ALL PROJECTS</strong>
-          <svg viewBox="0 0 128 128" width="24" height="24">
-              <g fill="black"><path fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path><path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path></g>
-          </svg>
-  <div id="container-stars">
-      <div id="stars"></div>
-    </div>
-
-  <div id="glow">
-    <div class="circle"></div>
-    <div class="circle"></div>
-  </div>
-</a>
-</div> -->
-<!-- </div> -->
-
-
 
     <div id="contact" class="contacts-container text-white">
         
@@ -533,56 +523,53 @@
                           <img  style="left: 80px; bottom: 60px;"  class="ag-courses-item_date-box" width="100" height="100" src="https://img.icons8.com/ios-filled/50/resume.png" alt="resume"/>
                         </a>
                     </div>
-                    
-                    
-
                 </div>
               </div>
             </div>
         </div>
-        
     </body>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-        const carousel = document.querySelector('.animate-carousel');
-        const items = document.querySelectorAll('.carousel-item');
-        const totalWidth = items.length * items[0].offsetWidth;
-        
-        // Set the width of the carousel to fit all the items in one line
-        carousel.style.width = `${totalWidth}px`;
-
-        // Duplicate the items at the end for seamless scrolling
-        const cloneItems = Array.from(items).map(item => item.cloneNode(true));
-        cloneItems.forEach(item => carousel.appendChild(item));
-
-        // Add event listener to detect when the animation completes a cycle
-        let forward = true;
-        carousel.addEventListener('animationiteration', () => {
-            // Reverse the direction of the animation after a complete cycle
-            if (forward) {
-                carousel.style.animation = 'carouselBackward 10s linear infinite';
-            } else {
-                carousel.style.animation = 'carouselForward 10s linear infinite';
-            }
-            forward = !forward; // Toggle direction
-        });
-        });
-    </script>
-    
+    <script src="carousel.js.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script>
+    <script src="vanta.js"></script>
+
     <script>
-VANTA.NET({
-  el: "#vanta-net",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 1080.00,
-  minWidth: 100.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0xe3004a,
-  backgroundColor: 0xf0520,
-});
+function copyToClipboard(text) {
+    // Create a temporary textarea element
+    var textArea = document.createElement('textarea');
+    textArea.value = text;
+    document.body.appendChild(textArea);
+
+    // Select the text in the textarea
+    textArea.select();
+    textArea.setSelectionRange(0, 99999); // For mobile devices
+
+    // Copy the text to clipboard
+    document.execCommand('copy');
+
+    // Remove the temporary textarea element
+    document.body.removeChild(textArea);
+
+    // Show notification
+    showNotification('Copied to clipboard: ' + text);
+}
+
+function showNotification(message) {
+    // Get notification element and set the message
+    var notification = document.getElementById('notification');
+    var notificationText = document.getElementById('notification-text');
+    notificationText.textContent = message;
+
+    // Show the notification
+    notification.classList.remove('hidden');
+    notification.classList.add('show');
+
+    // Hide the notification after 3 seconds
+    setTimeout(function() {
+        notification.classList.remove('show');
+        notification.classList.add('hidden');
+    }, 3000); // 3 seconds
+}
+
     </script>
 </html>
