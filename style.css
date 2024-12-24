@@ -1178,6 +1178,8 @@ html {
 .card-n {
   width: 600px;
   height: 520px;
+  /* min-height: 520px;
+  max-height: 520px; */
   padding: 0.5rem;
   background: rgba(100, 100, 100, 0.6); /* Darkened background */
   border-radius: 8px;
